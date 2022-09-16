@@ -27,5 +27,5 @@ runs:
 #       shell: bash
     - uses: actions/checkout@v1
     - name: Send Slack Message
-      run: python slack_auto.py
+      run: python ./slack_auto.py
       shell: bash
