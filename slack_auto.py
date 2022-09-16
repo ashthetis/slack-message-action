@@ -2,8 +2,10 @@ import json
 import sys
 import random
 import requests
+
+
 if __name__ == '__main__':
-    url = ${{ secrets.SLACK_WEBHOOK }}
+    url = sys.argv[1]
     message = ("This is a test message for python automation")
     title = (f"New Incoming Message :zap:")
     slack_data = {
