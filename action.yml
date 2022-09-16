@@ -30,5 +30,4 @@ runs:
       run: |
         pwd
         ls
-        python slack_auto.py
       shell: bash
