@@ -25,7 +25,7 @@ runs:
 #       run: |
 #        echo "INPUT_NUM=${{ inputs.num }}" >> $GITHUB_ENV
 #       shell: bash
-    - uses: ashthetis/slack-message-action@main
+   # - uses: ashthetis/slack-message-action@main
     - name: Send Slack Message
       run: |
         pwd
