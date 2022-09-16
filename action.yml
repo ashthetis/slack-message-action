@@ -26,5 +26,5 @@ runs:
 #        echo "INPUT_NUM=${{ inputs.num }}" >> $GITHUB_ENV
 #       shell: bash
     - name: Send Slack Message
-      run: python slack_message.py
+      run: python slack_auto.py
       shell: bash
