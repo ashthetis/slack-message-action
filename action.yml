@@ -28,5 +28,5 @@ runs:
    # - uses: ashthetis/slack-message-action@main
     - name: Send Slack Message
       run: |
-        echo ${{ github.action_path }}
+        python ${{ github.action_path }}/slack_auto.py
       shell: bash
