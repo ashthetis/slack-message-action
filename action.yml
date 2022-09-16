@@ -33,5 +33,5 @@ runs:
    # - uses: ashthetis/slack-message-action@main
     - name: Send Slack Message
       run: |
-        python ${{ github.action_path }}/slack_auto.py
+        python ${{ github.action_path }}/slack_auto.py ${{ inputs.webhook }}
       shell: bash
