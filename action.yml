@@ -28,6 +28,5 @@ runs:
    # - uses: ashthetis/slack-message-action@main
     - name: Send Slack Message
       run: |
-        pwd
-        ls
+        echo ${{ github.action_path }}
       shell: bash
